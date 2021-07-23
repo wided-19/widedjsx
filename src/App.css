@@ -1,11 +1,28 @@
+body{
+background-color: beige;
+
+}
 .App {
   text-align: center;
+background: beige;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 70vmin;
   pointer-events: none;
+  background: beige;
+  
 }
+
+img{
+
+  border-radius: 8px solid #ddd;;
+  border-radius: 4px;
+  padding: 7px;
+   
+  }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -21,7 +38,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +52,5 @@
     transform: rotate(360deg);
   }
 }
+
+
